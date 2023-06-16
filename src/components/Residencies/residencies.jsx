@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
 import "swiper/css";
-import "./Residencies.css";
+import "./residencies.css";
 import data from "../../utils/slider.json";
 import { sliderSettings } from "../../utils/common";
 
@@ -9,7 +9,6 @@ import { sliderSettings } from "../../utils/common";
 const Residencies = () => {
 
     return (
-        // <div>Residencies</div>
         <section className="r-wrapper">
 
             <div className="paddings innerWidth r-container">
@@ -17,10 +16,10 @@ const Residencies = () => {
                     <span className="orangeText">Best Choices</span>
                     <span className="primaryText">Popular sites</span>
                 </div>
-            </div>
 
-            <Swiper {...sliderSettings} >
-                {data.map((card, i) => (
+                <Swiper {...sliderSettings} >
+                    <SliderButtons/>
+                    {data.map((card, i) => (
                         <SwiperSlide key={i}>
                             <div className="flexColStart r-card">
 
@@ -33,14 +32,23 @@ const Residencies = () => {
                                 <span className="secondaryText">{card.detail}</span>
                             </div>
                         </SwiperSlide>
-                             )
-                            )
-                }
-            </Swiper>
-
-        </section>
-
-    )
-}
+                    )
+                    )
+                    }
+                </Swiper>
+            </div>
+        </section> 
+    );
+};
 
 export default Residencies;
+
+const SliderButtons = () => {
+    const swiper = useSwiper();
+    return (
+        <div className="flexCenter r-buttons">
+            <button onClick={() => swiper.slidePrev()}>&lt;</button>
+            <button onClick={() => swiper.slideNext()}>&gt;</button>
+        </div>
+    );
+};
