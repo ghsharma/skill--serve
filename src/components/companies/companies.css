@@ -1,4 +1,5 @@
 .c-container{
+    background-color: rgb(17, 17, 17);
     justify-content: space-around;
     gap:2rem;
 }

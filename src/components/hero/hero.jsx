@@ -12,12 +12,12 @@ const Hero = () => {
                 <div className="flexColStart hero-left">
                     <div className="hero-title">
                         <div className="orange-circle" />
-                        <h1>Discover<br />Most Suitable<br />Property</h1>
+                        <h1>"Empowering<br/> services with<br/>श्रमिकMANTRA"</h1>
                     </div>
 
                     <div className="flexColStart hero-des">
-                        <span  className="secondaryText">Find a variety of properties that suit you very easilty</span>
-                        <span  className="secondaryText">Forget all difficulties in finding a residence for you</span>
+                        <span  className="secondaryText">Unleashing Service Excellence with a team of skilled professionals,</span>
+                        <span  className="secondaryText"> state-of-the-art techniques, and a commitment to integrity</span>
                     </div>
 
                     <div className="flexCenter search-bar">
@@ -33,13 +33,13 @@ const Hero = () => {
                                 <span>+</span> 
                             </span>
                             <span className="secondaryText">
-                                    Premium Products
+                                    Users
                             </span>
                         </div>
 
                         <div className="flexColStart stat">
                             <span>
-                                <CountUp start={1950} end={2000} duration={4}/>
+                                <CountUp start={5950} end={6000} duration={4}/>
                                 <span>+</span> 
                             </span>
                             <span  className="secondaryText">
@@ -62,7 +62,7 @@ const Hero = () => {
 
                 <div className="flexCenter hero-right">
                     <div className="image-container">
-                        <img src="./Construction.png" alt=""></img>
+                        <img src="./construction.png" alt=""></img>
                     </div>
                 </div>
             </div>

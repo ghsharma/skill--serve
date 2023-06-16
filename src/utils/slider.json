@@ -1,38 +1,50 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "name": "Expert Construction Services",
+    "price": "+1 (555) 123-4567",
+    "detail": "Comprehensive construction solutions for residential and commercial projects.",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "Reliable Cleaning Services",
+    "price": "+1 (555) 987-6543",
+    "detail": " Meticulous and efficient cleaning for homes and businesses.",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "Trusted Electrical Services",
+    "price": "+1 (555) 456-7890",
+    "detail": "Safe and reliable electrical installations and repairs.",
     "image": "./r3.png"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Reliable Plumbing Solutions",
+    "price": "+1 (555) 321-0987",
+    "detail": "Efficient plumbing services for repairs, installations, and emergencies.",
+    "image": "./r4.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": " Memorable Event Planning",
+    "price": "+1 (555) 234-5678",
+    "detail": "Stress-free event organization for seamless celebrations.",
+    "image": "./r5.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Professional Makeup Artistry",
+    "price": "+1 (555) 876-5432",
+    "detail": "Enhancing natural beauty for special occasions and makeovers. ",
+    "image": "./r6.png"
+  },
+  {
+    "name": "Skilled Carpentry Services",
+    "price": "+1 (555) 789-0123",
+    "detail": "Custom woodworking and home renovations by expert carpenters.",
+    "image": "./r7.png"
+  },
+  {
+    "name": "Exceptional Painting Services",
+    "price": "+1 (555) 210-9876",
+    "detail": "Transforming spaces with expert painting and color schemes.",
+    "image": "./r8.png"
   }
 ]

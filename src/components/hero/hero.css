@@ -22,7 +22,7 @@
     margin-bottom: 4rem;
     font-weight:600;
     font-size: 3.8rem;
-    line-height:4rem;
+    line-height:4.2rem;
 }
 
 .orange-circle{
@@ -31,7 +31,7 @@
     background: var(--orange-gradient);
     border-radius: 999px;
     position:absolute;
-    right:8%;
+    right:1%;
     top:-10%;
     z-index:-1;
 }
@@ -70,7 +70,7 @@
 
 .image-container{
     
-     width: 34rem;
+     width: 31rem;
      height: 40rem;
      overflow: hidden;
      /* border-radius: 15rem 15rem 0 0; */
