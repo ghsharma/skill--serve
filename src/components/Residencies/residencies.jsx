@@ -25,7 +25,7 @@ const Residencies = () => {
 
                                 <img src={card.image} alt="home" />
                                 <span className="secondaryText r-price">
-                                    <span style={{ color: "orange" }}>$</span><span>{card.price}</span>
+                                    <span style={{ color: "orange" }}>To Call: </span><span>{card.price}</span>
                                 </span>
 
                                 <span className="primaryText">{card.name}</span>

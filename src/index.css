@@ -97,6 +97,7 @@ a {
   transform: scale(110%);
 }
 
+
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {

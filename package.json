@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "accordion": "^3.0.2",
     "framer-motion": "^10.8.5",
     "react": "^18.2.0",
     "react-accessible-accordion": "^5.0.0",

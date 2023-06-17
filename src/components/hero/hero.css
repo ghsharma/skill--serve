@@ -13,7 +13,8 @@
 }
 
 .hero-left{
-    margin:4rem;
+    margin:2rem;
+    /* margin-right: -20rem; */
     position: relative;
     z-index:1;     
 }
@@ -70,7 +71,7 @@
 
 .image-container{
     
-     width: 31rem;
+     width: 33rem;
      height: 40rem;
      overflow: hidden;
      /* border-radius: 15rem 15rem 0 0; */
