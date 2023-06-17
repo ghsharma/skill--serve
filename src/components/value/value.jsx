@@ -20,7 +20,7 @@ const Value = () => {
                 {/* left side */}
                 <div className="v-left">
                     <div className="v-image-container">
-                        <img src="./value.png" alt="" />
+                        <img src="./housetest.png" alt="" />
                     </div>
                 </div>
 
@@ -46,9 +46,6 @@ const Value = () => {
                                             <span className="primaryText">
                                                 {item.heading}
                                             </span>
-                                            <div className="flexCenter icon">
-                                                <MdOutlineArrowDropDown size={20} />
-                                            </div>
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
 
