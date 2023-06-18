@@ -20,18 +20,18 @@ const Value = () => {
                 {/* left side */}
                 <div className="v-left">
                     <div className="v-image-container">
-                        <img src="./housetest.png" alt="" />
+                        <img src="./planning.png" alt="" />
                     </div>
                 </div>
 
 
                 {/* roght side */}
                 <div className="flexColStart v-right">
-                    <span className="orangeText">values</span>
-                    <span className="primaryText">we give to you values</span>
-                    <span className="secondaryText">ok no problem
-                    </span>
-
+                    <span className="orangeText">Unlocking the potential</span>
+                    <span className="primaryText">with some powerful features of श्रमिकMANTRA</span>
+                    <span className="secondaryText">We always ready to help by providing the best services for you.
+                    <br/>
+                    We believe a good balance to live can make your life better.</span>
 
                     <Accordion className="accordion"
                         allowMultipleExpanded={false}
