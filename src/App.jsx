@@ -6,6 +6,7 @@ import Residencies from "./components/Residencies/residencies";
 import Value from "./components/value/value";
 import Booking from "./components/booking/booking";
 
+
 function App() {
   return (
     <div className="App">
@@ -20,11 +21,6 @@ function App() {
     </div>
   );
 }
-
-
-
-
-
 
 
 

@@ -46,5 +46,11 @@
     "price": "+1 (555) 210-9876",
     "detail": "Transforming spaces with expert painting and color schemes.",
     "image": "./r8.png"
+  },
+  {
+    "name": "Sparkling Car Wash",
+    "price": "+1 (555) 555-1238",
+    "detail": "Ultimate Shine Car Wash Card: Unleash the Brilliance in Minutes!",
+    "image": "./r9.png"
   }
 ]
