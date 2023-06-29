@@ -6,6 +6,7 @@ import Residencies from "./components/Residencies/residencies";
 import Value from "./components/value/value";
 import Booking from "./components/booking/booking";
 import Favour from "./components/Favour/favour";
+import Contact from "./components/contact/contact";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
          <Residencies/>
          <Favour/>
          <Value/>
+         <Contact/>
          {/* <Booking/> */}
     </div>
   );
