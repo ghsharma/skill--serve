@@ -17,24 +17,21 @@ const Header = () => {
                     <a href="">Our Services</a>
                     <a href="">Values</a>
                     <a href="">get started</a>
-                    <a>{isAuthenticated &&  <a>{user.name}</a>}</a> 
+                    <a>{isAuthenticated && <a>{user.name}</a>}</a>
                     {isAuthenticated ? (
+                        < button className="button" onClick={() => logout({ returnTo: window.location.origin })}>
+                            LOG OUT
+                        </button>
 
-                      
+                    ) : (
+                        <button className="button" onClick={() => loginWithRedirect()}>
+                            <a href="">LOGIN</a>
+                        </button>
 
-                             < button className="button" onClick={() => logout({ returnTo: window.location.origin })}>
-                                 LOG OUT
-                                 </button>
-
-                                      ) : (
-                                     <button className="button" onClick={() => loginWithRedirect()}>
-                                 <a href="">LOGIN</a>
-                              </button>
-
-                          )
+                    )
                     }
+                </div>
             </div>
-        </div>
         </section>
     );
 };

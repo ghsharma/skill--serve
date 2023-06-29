@@ -5,6 +5,7 @@ import Companies from "./components/companies/companies";
 import Residencies from "./components/Residencies/residencies";
 import Value from "./components/value/value";
 import Booking from "./components/booking/booking";
+import Favour from "./components/Favour/favour";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       </div>
          <Companies/>
          <Residencies/>
+         <Favour/>
          <Value/>
          {/* <Booking/> */}
     </div>
