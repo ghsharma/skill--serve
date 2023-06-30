@@ -3,21 +3,27 @@ import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
     icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    heading: "Comprehensive range of services ",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "We offer a wide array of services, from home cleaning and appliance repair to plumbing and electrical work, covering all your household needs.",
   },
   {
     icon: <MdCancel />,
-    heading: "Prevent unstable prices",
+    heading: "Skilled professionals ",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      " Our team consists of experienced and trained service providers who bring their expertise to ensure exceptional quality and utmost customer satisfaction.",
   },
   {
     icon: <MdAnalytics />,
-    heading: "Best price on the market",
+    heading: "Convenient at-home service ",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Say goodbye to the hassle of traveling or transporting your belongings. Our services are delivered right to your doorstep, saving you time and effort.",
   },
+  {
+    icon: <MdAnalytics />,
+    heading: "Trusted and reliable",
+    detail:
+      "With a focus on trust, transparency, and dedicated customer support, we strive to be your dependable choice for top-notch service and fair pricing.",
+  }
 ];
 export default data;

@@ -25,13 +25,10 @@ const Value = () => {
                 </div>
 
 
-                {/* roght side */}
+                {/* right side */}
                 <div className="flexColStart v-right">
                     <span className="orangeText">Unlocking the potential</span>
                     <span className="primaryText">with some powerful features of श्रमिकMANTRA</span>
-                    <span className="secondaryText">We always ready to help by providing the best services for you.
-                    <br/>
-                    We believe a good balance to live can make your life better.</span>
 
                     <Accordion className="accordion"
                         allowMultipleExpanded={false}

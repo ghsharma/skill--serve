@@ -1,6 +1,6 @@
 
 .f-container{
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(20, 19, 19);
     color: rgb(255, 255, 255);
     margin: auto;
     padding: 3rem;
@@ -13,7 +13,8 @@
     padding: .2rem ;
     margin-top: 2rem;
     border: 0;
-    background-color: orange;
+    background-color: orange; 
+    /* background: var(--blue-gradient); */
     font-size: larger;
     font-weight: 600;
 }
