@@ -7,6 +7,7 @@ import Value from "./components/value/value";
 import Booking from "./components/booking/booking";
 import Favour from "./components/Favour/favour";
 import Contact from "./components/contact/contact";
+import Getstarted from "./components/getstarted/getstarted";
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
          <Favour/>
          <Value/>
          <Contact/>
+         <Getstarted/>
+         
          {/* <Booking/> */}
     </div>
   );
