@@ -8,6 +8,7 @@ import Booking from "./components/booking/booking";
 import Favour from "./components/Favour/favour";
 import Contact from "./components/contact/contact";
 import Getstarted from "./components/getstarted/getstarted";
+import Footer from "./components/footer/footer";
 
 
 function App() {
@@ -23,12 +24,11 @@ function App() {
          <Value/>
          <Contact/>
          <Getstarted/>
-         
+         <Footer/>
+
          {/* <Booking/> */}
     </div>
   );
 }
-
-
 
 export default App;
