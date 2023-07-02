@@ -9,11 +9,16 @@ import Favour from "./components/Favour/favour";
 import Contact from "./components/contact/contact";
 import Getstarted from "./components/getstarted/getstarted";
 import Footer from "./components/footer/footer";
+import { BrowserRouter } from "react-router-dom";
+
 
 
 function App() {
   return (
     <div className="App">
+
+  <BrowserRouter>
+    
       <div>
         <div className="white-gradient"/>
         <Header/><Hero/>
@@ -27,6 +32,8 @@ function App() {
          <Footer/>
 
          {/* <Booking/> */}
+
+  </BrowserRouter>
     </div>
   );
 }

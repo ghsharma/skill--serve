@@ -60,6 +60,11 @@
     right:0;
 }
 
+.r-card button{
+    margin-left: 0rem;
+    margin-right: 6rem;
+}
+
 .r-buttons button{
     font-size: 1.2rem;
     padding: 0.2rem 0.8rem;

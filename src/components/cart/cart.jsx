@@ -1,19 +1,25 @@
-
-import React from "react";
-import { useAuth0 } from "@auth0/auth0-react";
+import React from 'react';
 import "./cart.css";
 
+
 const Cart = () => {
-    const { loginWithRedirect } = useAuth0();
-    const { user, isAuthenticated, logout } = useAuth0();
-
     return (
-
         <section className="c-wrapper">
+        <div className="padding innerWidth flexCenter c-container">
 
-            
-        </section>
+            <div className="flexColStart c-left">
+                <span className='orangeText'>Our Contact</span>
+                <span className='primaryText'>Easy to Contact Us</span>
+                </div>
+        </div>
 
+
+            <div className="flexCenter c-right">
+                <div className="c-image-container">
+                    <img src="./contact.png" alt='' />
+                </div>
+            </div>
+    </section>
     );
 };
 

@@ -4,10 +4,12 @@ import "swiper/css";
 import "./residencies.css";
 import data from "../../utils/slider.json";
 import { sliderSettings } from "../../utils/common";
+import { BrowserRouter, Link, Routes } from "react-router-dom";
+import Cart from "../cart/cart";
 
 
 const Residencies = () => {
-
+                          
     return (
         <section className="r-wrapper">
 
@@ -27,8 +29,10 @@ const Residencies = () => {
                                 <span className="secondaryText r-price">
                                     <span style={{ color: "orange" }}>To Call: </span><span>{card.price}</span>
                                 </span>
-
                                 <span className="primaryText">{card.name}</span>
+                                <Link to="./Cart">
+                                <button className="flexColStart button"> Book Yours </button>
+                                </Link>
                                 <span className="secondaryText">{card.detail}</span>
                             </div>
                         </SwiperSlide>
@@ -36,6 +40,7 @@ const Residencies = () => {
                     )
                     }
                 </Swiper>
+
             </div>
         </section> 
     );
