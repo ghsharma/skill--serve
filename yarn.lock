@@ -474,6 +474,11 @@ csstype@^3.0.2:
   resolved "https://registry.npmjs.org/csstype/-/csstype-3.1.1.tgz"
   integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
 
+custom-cursor@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.npmjs.org/custom-cursor/-/custom-cursor-2.2.3.tgz"
+  integrity sha512-Dw8Z23xn+4FLUfeKB2w7tUnlXTaDEDavdeDQomhrGPdAb9/oXUIRaawv3TKAv/IrsndgxoV72td55ZEH/3bzxQ==
+
 debug@^4.1.0:
   version "4.3.4"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
@@ -1008,6 +1013,11 @@ react-countup@^6.4.2:
   dependencies:
     "@rollup/plugin-babel" "^6.0.3"
     countup.js "^2.5.0"
+
+react-custom-cursors@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/react-custom-cursors/-/react-custom-cursors-2.0.2.tgz"
+  integrity sha512-AFQ+pSvyP3yp3rbFjxBy6reMN05wV48Ndo3k3nP7HxbCB0B5nLZkIa/B9pTPPwd3epAnbGZH+5B/XtaIQlyLow==
 
 react-custom-scrollbars-2@^4.5.0:
   version "4.5.0"

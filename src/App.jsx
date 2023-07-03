@@ -13,6 +13,7 @@ import Cart from "./components/cart/cart";
 // import {Route,Switch} from "react-router-dom";
 import { Routes, Route } from 'react-router-dom';
 import { Fragment } from "react";
+// import CustomCursor from "./components/customcursor/customCursor";
 // import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 // import { createBrowserRouter,RouterProvider } from "react-router-dom";
 
@@ -23,7 +24,6 @@ function App() {
         <Route path='/' element={
           <Fragment>
             <div className="App">
-
               <div>
                 <div className="white-gradient" />
                 <Header /><Hero />
@@ -35,6 +35,7 @@ function App() {
               <Contact />
               <Getstarted />
               <Footer />
+              {/* <CustomCursor/> */}
             </div>
 
           </Fragment>
@@ -43,21 +44,6 @@ function App() {
         {/* <Route Component={Error}/> */}
 
       </Routes>
-{/* 
-      <div className="App">
-
-        <div>
-          <div className="white-gradient" />
-          <Header /><Hero />
-        </div>
-        <Companies />
-        <Residencies />
-        <Favour />
-        <Value />
-        <Contact />
-        <Getstarted />
-        <Footer />
-      </div> */}
     </>
   );
 }
