@@ -6,13 +6,6 @@
     padding: 3rem;
 }
 
-.mainline{
-    margin-left: 1rem;
-    font-size: 120px;
-    overflow: scroll;
-}
-
-
 ::-webkit-scrollbar {
     display: none;
 }
@@ -24,3 +17,26 @@
     box-shadow: var(--shadow);
     border-radius: 10px;
 }
+
+.scrolling-text {
+    width: 190vw;
+    height: 180px;
+    /* overflow: hidden ; */
+    position: relative;
+  }
+  
+  .scrolling-text h1 {
+    font-size: 120px;
+    animation: scroll-left 10s linear infinite;
+    /* white-space: nowrap; */
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

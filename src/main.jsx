@@ -7,6 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot( document.getElementById("root")).render(
 
+  <BrowserRouter>
 
   <Auth0Provider
     domain="dev-8d5fo7zjxgem8m20.us.auth0.com"
@@ -15,10 +16,9 @@ ReactDOM.createRoot( document.getElementById("root")).render(
       redirect_uri: window.location.origin
     }}>
 
-    <BrowserRouter>
     <App/>
+  </Auth0Provider>
     </BrowserRouter>
-  </Auth0Provider>,
  
 
 );

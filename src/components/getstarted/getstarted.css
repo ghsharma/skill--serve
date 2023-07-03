@@ -1,3 +1,6 @@
+.g-wrapper{
+    background:var(--black);
+}
 .inner-container{
     gap:1.5rem;
     background: #171b31;
