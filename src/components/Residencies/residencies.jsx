@@ -11,6 +11,8 @@ import Cart from "../cart/cart";
 const Residencies = () => {
                           
     return (
+
+<>
         <section className="r-wrapper">
 
             <div className="paddings innerWidth r-container">
@@ -30,7 +32,7 @@ const Residencies = () => {
                                     <span style={{ color: "orange" }}>To Call: </span><span>{card.price}</span>
                                 </span>
                                 <span className="primaryText">{card.name}</span>
-                                <Link to="./Cart">
+                                <Link to="/Cart">
                                 <button className="flexColStart button"> Book Yours </button>
                                 </Link>
                                 <span className="secondaryText">{card.detail}</span>
@@ -43,6 +45,8 @@ const Residencies = () => {
 
             </div>
         </section> 
+</>
+
     );
 };
 

@@ -4,19 +4,19 @@ import "./cart.css";
 
 const Cart = () => {
     return (
-        <section className="c-wrapper">
+        <section className="cart-wrapper">
         <div className="padding innerWidth flexCenter c-container">
 
             <div className="flexColStart c-left">
-                <span className='orangeText'>Our Contact</span>
-                <span className='primaryText'>Easy to Contact Us</span>
+                <span className='orangeText'>this is the cart</span>
+                <span className='primaryText'>your orders</span>
                 </div>
         </div>
 
 
-            <div className="flexCenter c-right">
+            <div className="flexCenter cart-right">
                 <div className="c-image-container">
-                    <img src="./contact.png" alt='' />
+                    {/* <img src="./contact.png" /> */}
                 </div>
             </div>
     </section>
