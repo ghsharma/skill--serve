@@ -13,6 +13,8 @@ import Cart from "./components/cart/cart";
 // import {Route,Switch} from "react-router-dom";
 import { Routes, Route } from 'react-router-dom';
 import { Fragment } from "react";
+import Addto from "./components/addto/addto";
+import Timeline from "./components/timeline/timeline";
 // import CustomCursor from "./components/customcursor/customCursor";
 // import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 // import { createBrowserRouter,RouterProvider } from "react-router-dom";
@@ -32,6 +34,7 @@ function App() {
               <Residencies />
               <Favour />
               <Value />
+              <Timeline/>
               <Contact />
               <Getstarted />
               <Footer />
@@ -40,7 +43,8 @@ function App() {
 
           </Fragment>
         } />
-        <Route exact path='/cart' Component={Cart} />
+
+        <Route exact path='/addto' Component={Addto} />
         {/* <Route Component={Error}/> */}
 
       </Routes>
