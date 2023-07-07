@@ -13,8 +13,10 @@
 
 .c-container{
 
-    margin-top: 20vh;
-    margin-bottom: 10vh;
+    /* margin-top: 20vh;
+    margin-bottom: 10vh; */
+    padding-top: 20vh;
+    padding-bottom: 10vh;
     background:var(--black);
     justify-content: space-between;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import "./hero.css";
 import { HiLocationMarker } from 'react-icons/hi';
 import CountUp from "react-countup";
+import { Fade } from "react-reveal";
 
 const Hero = () => {
     return (
@@ -9,10 +10,12 @@ const Hero = () => {
         <section className="hero-wrapper">
             <div className="paddings innerWidth flexCenter hero-container">
 
+            <Fade bottom distance="10%" duration={1500}>
+
                 <div className="flexColStart hero-left">
                     <div className="hero-title">
                         <div className="orange-circle" />
-                        <h1>"Empowering<br/> services with<br/>श्रमिकMANTRA"</h1>
+                        <h2>"Empowering<br/> services with<br/>श्रमिकMANTRA"</h2>
                     </div>
 
                     <div className="flexColStart hero-des">
@@ -59,12 +62,16 @@ const Hero = () => {
                     </div>
 
                 </div>
+            </Fade>
+
+                <Fade top distance="10%" duration={1500}>
 
                 <div className="flexCenter hero-right">
                     <div className="image-container">
                         <img src="./construction.png" alt=""></img>
                     </div>
                 </div>
+                </Fade>
             </div>
 
         </section>

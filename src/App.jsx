@@ -4,12 +4,11 @@ import "./App.css";
 import Companies from "./components/companies/companies";
 import Residencies from "./components/Residencies/residencies";
 import Value from "./components/value/value";
-import Booking from "./components/booking/booking";
-import Favour from "./components/Favour/favour";
+// import Booking from "./components/booking/booking";
 import Contact from "./components/contact/contact";
 import Getstarted from "./components/getstarted/getstarted";
 import Footer from "./components/footer/footer";
-import Cart from "./components/cart/cart";
+// import Cart from "./components/cart/cart";
 import { Routes, Route } from 'react-router-dom';
 import { Fragment } from "react";
 import Addto from "./components/addto/addto";
@@ -28,27 +27,28 @@ function App() {
               <div>
                 <div className="white-gradient" />
                 <Header />
-                <Fade bottom distance="20%" duration={1500}>
                 <Hero />
+                <Fade bottom distance="20%" duration={1500}>
                 </Fade>
-                
+
               </div>
-          <Fade bottom distance="10%" duration={1500}>
-              <Companies />
-          </Fade>
-          <Fade right distance="10%" duration={1500}>
-              <Residencies />
-          </Fade>
-              <Favour />
-          <Fade bottom distance="10%" duration={1500}>
-              <Value />
-              <Timeline/>
-              <Contact />
-              <Getstarted />
-              <Footer />
-          </Fade>
-             
-          
+              <Fade right distance="10%" duration={1500}>
+                <Residencies />
+              </Fade>
+              <Fade bottom distance="10%" duration={1500}>
+                <Companies />
+              </Fade>
+
+
+              <Fade bottom distance="10%" duration={1500}>
+                <Value />
+                <Timeline />
+                <Contact />
+                <Getstarted />
+                <Footer />
+              </Fade>
+
+
               {/* <CustomCursor/> */}
             </div>
 

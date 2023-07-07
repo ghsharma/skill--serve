@@ -1,16 +1,13 @@
-body {
+.timelines{
     background: #111111;
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     color: rgb(255, 255, 255);
   }
 
-  .img-cont{
-
-    /* background-image: url("./construction.png"); */
-
+  body{
+    background-color: #111111;
   }
-
 
   h1{
     text-align: center;
@@ -32,10 +29,20 @@ body {
   p{
     color: black;
   }
-  
+
+ data .vertical-timeline-element-date{
+    font-size: 30em;
+  }
+
   .vertical-timeline-element-content {
-    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
-      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+
+    background-image: url("./bill.png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    box-shadow: 0 0.25em 0.5em 0 rgba(255, 255, 255, 0.35),
+      0 0.4em 1.25em 0 rgba(255, 255, 255, 0.35) !important;
     padding: 2em 3em !important;
   }
   
@@ -46,33 +53,11 @@ body {
   #description {
     margin: 1.5em 0 0 0;
   }
-  
-  .button {
-    text-decoration: none;
-    padding: 0.5em 1em;
-    border-radius: 5px;
-    color: white;
-  }
-  
-  .workButton {
-    background-color: #06d6a0;
-  }
-  
-  .workButton:hover {
-    background-color: #0ac593;
-  }
-  
-  .schoolButton {
-    background-color: #f9c74f;
-  }
-  
-  .schoolButton:hover {
-    background-color: #f3bc3c;
-  }
 
   .vertical-timeline-element-icon{
+    border: #111111;
     color:black;
-    background: white;
+    background: rgb(255, 255, 255);
   }  
   @media only screen and (max-width: 1700px) {
     .vertical-timeline-element-date {
@@ -81,4 +66,8 @@ body {
       color: rgb(255, 255, 255);
       margin-top: 1.5em;
     }
+  }
+
+  .timelines .svg{
+    color: white;
   }

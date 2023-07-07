@@ -1,3 +1,4 @@
+
 let timelineElements = [
     {
       id: 1,
@@ -5,18 +6,19 @@ let timelineElements = [
       location: "Dragontail, Ascana",
       description:
         " Easily request a service from home by selecting the service and providing details.",
-      buttonText: "View Frontend Projects",
-      date: "August 2016 - present",
+      buttonText: "View Frontend Projects",                             
+      icon: "BsFillChatDotsFill size={25}",
+      date: "1",
       icon: "work",
     },
     {
       id: 2,
-      title: "Professional Assignment",
+      title: "Professional Assigned",
       location: "Skystead, Craonia",
       description:
         "Our app matches your request with a skilled professional in your area.",
       buttonText: "View Backend Projects",
-      date: "June 2013 - August 2016",
+      date: "2",
       icon: "work",
     },
     {
@@ -26,7 +28,7 @@ let timelineElements = [
       description:
         " Enjoy hassle-free service as the professional arrives at your doorstep.",
       buttonText: "Company Website",
-      date: "September 2011 - June 2013",
+      date: "3",
       icon: "work",
     },
     {
@@ -36,7 +38,7 @@ let timelineElements = [
       description:
         "Stay informed with live updates on the status of your service request.",
       buttonText: "Course Certificate",
-      date: "September 2011",
+      date: "4",
       icon: "school",
     },
     {
@@ -46,7 +48,7 @@ let timelineElements = [
       description:
         "Conveniently make payment and receive a digital invoice through the app.",
       buttonText: "College Projects",
-      date: "2007 - 2011",
+      date: "5",
       icon: "school",
     },
     {
@@ -55,7 +57,7 @@ let timelineElements = [
       location: "Dragontail, Ascana",
       description:
         "Provide feedback on the service and access customer support if needed.",
-      date: "2003 - 2007",
+      date: "6",
       icon: "school",
     },
   ];

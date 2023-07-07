@@ -4,7 +4,6 @@ import timelineElements from "./timelineElements";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-
 const Timeline = () => {
     return (
 
@@ -18,25 +17,28 @@ const Timeline = () => {
 
                         return (
 
-                            <>
+<>
                                 <VerticalTimelineElement
                                     key={element.key}
+
+
                                     date={element.date}
                                     dateClassName="date"
                                 >
-                                    <div>
+                                    <div className="divimage">
                                         <h3 className="vertical-timeline-element-title">
                                             {element.title}
                                         </h3>
-                                        <h5 className="vertical-timeline-element-subtitle">
+                                        {/* <h5 className="vertical-timeline-element-subtitle">
                                             {element.location}
-                                        </h5>
+                                        </h5> */}
                                         <p id="description" >
                                             {element.description}
                                         </p>
 
                                     </div>
                                 </VerticalTimelineElement>
+                                         
                             </>
                         )
                     })
