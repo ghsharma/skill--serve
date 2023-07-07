@@ -8,7 +8,7 @@ const Favour = () => {
         <section className='f-wrapper'>
             <div className='paddings innerWidth f-container'>
                 <h2 className='orangeText'>Our New Category launches >>>>> </h2>
-                <div class="scrolling-text">
+                <div className="text">
                     <h1>Consultations_Purification_ApplianceRepairs&more</h1>
                 </div>
 

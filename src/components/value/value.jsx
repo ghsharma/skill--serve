@@ -11,6 +11,7 @@ import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from 'react-icons/md';
 import "./value.css";
 import data from '../../utils/accordion';
+import Fade from 'react-reveal/Fade';
 
 
 const Value = () => {
@@ -18,11 +19,13 @@ const Value = () => {
         <section className="v-wrapper">
             <div className="paddings innerWidth flexCenter v-container">
                 {/* left side */}
+                <Fade left distance="100%" duration={1500}>
                 <div className="v-left">
                     <div className="v-image-container">
                         <img src="./planning.png" alt="" />
                     </div>
                 </div>
+                </Fade>
 
 
                 {/* right side */}
@@ -33,6 +36,9 @@ const Value = () => {
                     <Accordion className="accordion"
                         allowMultipleExpanded={false}
                         preExpanded={[0]}>
+
+                    <Fade right distance="100%" duration={1500}>
+
 
                         {data.map((item, i) => {
                             return (
@@ -53,6 +59,7 @@ const Value = () => {
                             );
                         })
                         }
+                    </Fade>
                     </Accordion>
                 </div>
             </div>

@@ -10,14 +10,13 @@ import Contact from "./components/contact/contact";
 import Getstarted from "./components/getstarted/getstarted";
 import Footer from "./components/footer/footer";
 import Cart from "./components/cart/cart";
-// import {Route,Switch} from "react-router-dom";
 import { Routes, Route } from 'react-router-dom';
 import { Fragment } from "react";
 import Addto from "./components/addto/addto";
 import Timeline from "./components/timeline/timeline";
-// import CustomCursor from "./components/customcursor/customCursor";
-// import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-// import { createBrowserRouter,RouterProvider } from "react-router-dom";
+import Fade from 'react-reveal/Fade';
+
+
 
 function App() {
   return (
@@ -28,16 +27,28 @@ function App() {
             <div className="App">
               <div>
                 <div className="white-gradient" />
-                <Header /><Hero />
+                <Header />
+                <Fade bottom distance="20%" duration={1500}>
+                <Hero />
+                </Fade>
+                
               </div>
+          <Fade bottom distance="10%" duration={1500}>
               <Companies />
+          </Fade>
+          <Fade right distance="10%" duration={1500}>
               <Residencies />
+          </Fade>
               <Favour />
+          <Fade bottom distance="10%" duration={1500}>
               <Value />
               <Timeline/>
               <Contact />
               <Getstarted />
               <Footer />
+          </Fade>
+             
+          
               {/* <CustomCursor/> */}
             </div>
 
