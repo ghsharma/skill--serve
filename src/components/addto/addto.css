@@ -7,9 +7,7 @@
 }
   
 .a-top{
-    /* height: 1vh; */
-    /* background-color: var(--black); */
-    /* position:fixed; */
+    position:sticky;
 }
 
 .addto-container{
@@ -21,10 +19,12 @@
     width: 40vw;
     margin:2rem;
     position: relative;
-    z-index:1; 
+    /* z-index:1;  */
 }
 
-.head{
+.a-top h1{
+    text-align: left;
+    margin-left: -3vw;
     font-size: 3rem;
 }
 
@@ -57,4 +57,23 @@
 
 .deals{
     background-color: white;
+}
+
+.d-img-container{
+
+    padding:2vh;
+    margin:2vh;
+    height:20vh;
+    width: 10vw;
+    border:black solid ;
+    border-radius: 20px;
+
+}
+/* 
+img{
+    width: 100%;
+} */
+
+.deals .tag p{
+  text-align: center;
 }

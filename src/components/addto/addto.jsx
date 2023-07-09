@@ -38,12 +38,16 @@ const Addto = () => {
 
 
             <div className='flexColStart deals'>
+
+            <div className='deal card'>
+
                 <div className='flexStart d-img-container'>
 
-                    <img src="./newlogo.png" />
-
                 </div>
-                <div>Call Now</div>
+                <div className='tag'>
+                    <p>detail</p>
+            </div>
+                </div>
             </div>
 
 
