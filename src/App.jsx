@@ -11,7 +11,6 @@ import Footer from "./components/footer/footer";
 // import Cart from "./components/cart/cart";
 import { Routes, Route } from 'react-router-dom';
 import { Fragment } from "react";
-import Addto from "./components/addto/addto";
 import Timeline from "./components/timeline/timeline";
 import Fade from 'react-reveal/Fade';
 
@@ -54,10 +53,6 @@ function App() {
 
           </Fragment>
         } />
-
-        <Route exact path='/addto' Component={Addto} />
-        {/* <Route Component={Error}/> */}
-
       </Routes>
     </>
   );

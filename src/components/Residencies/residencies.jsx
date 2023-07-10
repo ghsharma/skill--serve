@@ -5,7 +5,6 @@ import "./residencies.css";
 import data from "../../utils/slider.json";
 import { sliderSettings } from "../../utils/common";
 import { BrowserRouter, Link, Routes } from "react-router-dom";
-import Addto from "../addto/addto";
 
 
 const Residencies = () => {
@@ -32,9 +31,7 @@ const Residencies = () => {
                                     <span style={{ color: "orange" }}>To Call: </span><span>{card.price}</span>
                                 </span>
                                 <span className="primaryText">{card.name}</span>
-                                <Link to="/Addto">
                                 <button className="flexColStart button"> Book Yours </button>
-                                </Link>
                                 <span className="secondaryText">{card.detail}</span>
                             </div>
                         </SwiperSlide>

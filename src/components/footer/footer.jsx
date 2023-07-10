@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { BsFillChatDotsFill, BsFillHeartFill } from "react-icons/bs";
 
 const Footer = () => {
 
@@ -15,6 +16,11 @@ const Footer = () => {
                     <span className="secondaryText">
                         Our vision is to make all people <br/>
                         the best place to love for them.
+                        <br/>
+                        <br/>
+
+                        
+                        <button className="button"> <a href="https://ghsharma.github.io/My-portfolio.github.io-/">BY:   GHS with <BsFillHeartFill size={10} /></a></button>
                     </span>
                 </div>
 
