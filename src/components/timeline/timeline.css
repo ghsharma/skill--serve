@@ -39,12 +39,6 @@
   }
 
   .vertical-timeline-element-content {
-
-    background-image: url("./bill.png");
-    background-position: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-   
     box-shadow: 0 0.25em 0.5em 0 rgba(255, 255, 255, 0.35),
       0 0.4em 1.25em 0 rgba(255, 255, 255, 0.35) !important;
     padding: 2em 3em !important;
