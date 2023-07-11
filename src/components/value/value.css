@@ -5,8 +5,19 @@
 .v-image-container{
     margin:2rem;
     width: 30rem;
-    height: 30rem;
+    height: 33rem;
+    border: rgb(236, 236, 236) solid 5px;
+    border-radius: 220px 220px 0px 0px ;
+    overflow: hidden;
+    box-shadow: white 0px 0px 20px 0px;
+    transition: (0.1s) ease-in;
 }
+
+.v-image-container:hover{
+    box-shadow: none;
+    transition: (0.1s) ease-in;
+}
+
 
 .v-image-container> img{
    width:100%;

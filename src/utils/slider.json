@@ -3,48 +3,48 @@
     "name": "Expert Construction Services",
     "price": "+1 (555) 123-4567",
     "detail": "Comprehensive construction solutions for residential and commercial projects.",
-    "image": "./r1.png"
+    "image": "./r1.jpg"
   },
   {
     "name": "Trusted Electrical Services",
     "price": "+1 (555) 456-7890",
     "detail": "Safe and reliable electrical installations and repairs.",
-    "image": "./r3.png"
+    "image": "./r2.jpg"
   },
   {
     "name": "Reliable Plumbing Solutions",
     "price": "+1 (555) 321-0987",
     "detail": "Efficient plumbing services for repairs, installations, and emergencies.",
-    "image": "./r4.png"
+    "image": "./r3.jpg"
   },
   {
     "name": " Memorable Event Planning",
     "price": "+1 (555) 234-5678",
     "detail": "Stress-free event organization for seamless celebrations.",
-    "image": "./r5.png"
+    "image": "./r4.jpg"
   },
   {
     "name": "Professional Makeup Artistry",
     "price": "+1 (555) 876-5432",
     "detail": "Enhancing natural beauty for special occasions and makeovers. ",
-    "image": "./r6.png"
+    "image": "./r5.jpg"
   },
   {
     "name": "Skilled Carpentry Services",
     "price": "+1 (555) 789-0123",
     "detail": "Custom woodworking and home renovations by expert carpenters.",
-    "image": "./r7.png"
+    "image": "./r6.jpg"
   },
   {
     "name": "Exceptional Painting Services",
     "price": "+1 (555) 210-9876",
     "detail": "Transforming spaces with expert painting and color schemes.",
-    "image": "./r8.png"
+    "image": "./r7.jpg"
   },
   {
     "name": "Sparkling Car Wash",
     "price": "+1 (555) 555-1238",
     "detail": "Ultimate Shine Car Wash Card: Unleash the Brilliance in Minutes!",
-    "image": "./r9.png"
+    "image": "./r8.jpg"
   }
 ]

@@ -1,5 +1,6 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
+import {BiMenuAltRight} from "react-icons/bi";
 import "./header.css";
 
 
@@ -31,7 +32,10 @@ const Header = () => {
 
                     )
                     }
-                </div>
+                </div> 
+            </div>
+            <div className="menu-icon">
+                <BiMenuAltRight size={30}/>
             </div>
         </section>
     );

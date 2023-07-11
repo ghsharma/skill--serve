@@ -19,3 +19,30 @@
     cursor: pointer;
     color: white;
 }
+
+.menu-icon{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .menu-icon{
+        display: block;
+    }
+
+    .h-menu{
+        color:var(--black);
+        position: absolute;
+        /* height: 1.vh; */
+        top: 3rem;
+        right: 4rem;
+        background: white;
+        display:inline;
+        flex-direction: column;
+        font-weight: 500;
+        gap:2rem;
+        padding: 3rem;
+
+
+    }
+    
+}
