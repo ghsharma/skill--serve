@@ -20,6 +20,8 @@ const Contact = () => {
 
                     <div className="flexColStart contactModes">
                         {/* first row */}
+                        <Fade top distance="10%" duration={2000}>
+
                         <div className='flexStart row'>
 
                             <div className='flexColCenter mode'>
@@ -51,8 +53,11 @@ const Contact = () => {
                                 <div className="flexCenter button">Chat Now</div>
                             </div>
                         </div>
+                        </Fade>
 
                         {/* second row */}
+
+                        <Fade Bottom distance="10%" duration={2000}>
 
                         <div className='flexStart row'>
                             <div className='flexColCenter mode'>
@@ -84,15 +89,18 @@ const Contact = () => {
                                 <div className="flexCenter button">Message Now</div>
                             </div>
                         </div>
+                        </Fade>
                     </div>
                 </div>
 
+                <Fade right distance="10%" duration={1500}>
 
                 <div className="flexCenter c-right">
                     <div className="c-image-container">
                         <img src="./contact.png" alt='' />
                     </div>
                 </div>
+                </Fade>
             </div>
         </section>
     );

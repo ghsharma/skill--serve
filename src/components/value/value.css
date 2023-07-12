@@ -10,12 +10,11 @@
     border-radius: 220px 220px 0px 0px ;
     overflow: hidden;
     box-shadow: white 0px 0px 20px 0px;
-    transition: (0.1s) ease-in;
+    transition: .5s ease-in;
 }
 
 .v-image-container:hover{
     box-shadow: none;
-    transition: (0.1s) ease-in;
 }
 
 
