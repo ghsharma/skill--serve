@@ -9,6 +9,13 @@
     margin-bottom: 2rem;
 }
 
+.mainhead{
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
 .r-card{
     gap:0.6rem;
     padding: 1rem;
@@ -20,14 +27,13 @@
     background:rgb(22, 22, 22) ;
 }
 
-.r-card .primaryText{
+.r-card .primaryText{  
     color: rgb(255, 255, 255);
 }
 
 .r-card>img{
-
     width: 100%;
-    max-width: 15rem;
+    max-width: 100%;
 
 }
 
@@ -49,7 +55,7 @@
     scale:1.025;
     cursor: pointer;
     background: linear-gradient(
-        180deg,
+        360deg,
         rgba(236, 233, 233, 0)0%,
         rgba(255, 255, 255, 0.46)217.91%
     ) ;
@@ -75,8 +81,10 @@
     font-size: 1.2rem;
     padding: 0.2rem 0.8rem;
     border:none;
-    background-color: white;
+    background-color: rgb(24, 101, 225);
     cursor: pointer;
+    box-shadow: white 0px 0px 10px 0px;
+
 }
 
 .r-buttons>:nth-child(1){
@@ -84,5 +92,22 @@
 }
 
 .r-buttons>:nth-child(2){
-    box-shadow:0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+    box-shadow:0px 0px 20px 0px rgb(79, 139, 235);
+}
+
+@media (max-width:640px){
+
+    .mainhead{
+        align-items: center;
+        font-size: 2.5rem;
+    }
+    .r-buttons{
+        margin-top: 1rem;
+        position: initial;
+    }
+    .r-price{
+        font-size: 1px;
+       
+
+    }
 }

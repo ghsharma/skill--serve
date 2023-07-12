@@ -16,7 +16,7 @@ const Residencies = () => {
 
             <div className="paddings innerWidth r-container">
                 <div className="r-head flexColStart">
-                    <span className="orangeText">Services We Provide</span>
+                    <span className="mainhead ">Services We Provide</span>
                     <span className="primaryText">that bring ease to you</span>
                 </div>
 
