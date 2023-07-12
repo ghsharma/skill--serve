@@ -35,7 +35,7 @@ function App() {
                 </Fade>
 
               </div>
-              <Fade right distance="10%" duration={1500}>
+              <Fade right distance="10%" duration={1000}>
                 <Residencies />
               </Fade>
 
