@@ -41,7 +41,7 @@ function App() {
 
               <Fade bottom distance="10%" duration={1500}>
                 <Value />
-                {/* <Timeline /> */}
+                <Timeline />
                 <Contact />
                 <Getstarted />
                 <Footer />
