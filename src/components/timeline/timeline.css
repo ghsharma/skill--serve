@@ -3,8 +3,8 @@
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     color: rgb(255, 255, 255);
-    width: 100vw;
-    padding: 0vh 20vh ;
+    width: 100%;
+    padding: 0vh 0vw ;
     line-height: 5vh;
   }
 
@@ -69,8 +69,15 @@
       float: none !important;
       color: rgb(255, 255, 255);
       margin-top: 1.5em;
+
     }
+
+    .vertical-timeline-element-content{
+      width: 80vw;
+      height: 29vh;
+    
   }
+}
 
   .timelines .svg{
     color: white;

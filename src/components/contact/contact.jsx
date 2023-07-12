@@ -3,6 +3,7 @@ import "./contact.css";
 import { MdCall } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { HiChatBubbleBottomCenter } from "react-icons/hi2";
+import { Fade } from 'react-reveal';
 
 
 const Contact = () => {
@@ -12,7 +13,7 @@ const Contact = () => {
             <div className="padding innerWidth flexCenter c-container">
 
                 <div className="flexColStart c-left">
-                    <span className='orangeText'>Our Contact</span>
+                    <span className='mainhead'>Our Contact</span>
                     <span className='primaryText'>Easy to Contact Us</span>
                     <span className='secondaryText'>We are always ready to help you by providing the best services<br />
                         believe a good balance to live can make your life better.</span>

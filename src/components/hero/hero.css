@@ -8,7 +8,7 @@
 }
 
 .hero-container{
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
@@ -81,4 +81,34 @@
 .image-container> img{
     width:100%;
     height:100%;
+}
+
+@media (max-width: 640px){
+    .hero-title>h2{
+       font-size: 3rem;
+       line-height: 3rem;
+    }
+
+    .image-container{
+        width: 95%;
+        height: 35rem;
+    }
+
+    .hero-right{
+        width: 100%;
+    }
+
+    .stats{
+        justify-content: center;
+        gap:1.5rem;
+    }
+
+    .stas>:nth-child(1){
+        font-size: 1.5rem;
+    }
+
+    
+    .stas>:nth-child(2){
+        font-size: .8rem;
+    }
 }

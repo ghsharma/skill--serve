@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { useAuth0 } from "@auth0/auth0-react";
-import {BiMenuAltRight} from "react-icons/bi";
+import { BiMenuAltRight } from "react-icons/bi";
+import OutsideClickHandler from "react-outside-click-handler";
 import "./header.css";
 
 
 const Header = () => {
+
+    const [menuOpened, setMenuOpened] = useState(false);
+    const getMenuStyles = (menuOpened) => {
+        if(document.documentElement.clientWidth <= 800)
+        {
+            return {right: !menuOpened && "-200%"}
+        }
+    }
     const { loginWithRedirect } = useAuth0();
     const { user, isAuthenticated, logout } = useAuth0();
 
@@ -15,7 +24,14 @@ const Header = () => {
             <div className="flexCenter paddings innerWidth h-container">
                 <img src="./logonew.png" alt="logo" width={200} />
 
-                <div className="flexCenter h-menu">
+        <OutsideClickHandler 
+        onOutsideClick={()=>
+        {
+            setMenuOpened(false);
+        }}>
+
+                <div className="flexCenter h-menu"
+                style={getMenuStyles(menuOpened)}>
                     <a href="">Our Services</a>
                     <a href="">Values</a>
                     <a href="">get started</a>
@@ -32,11 +48,13 @@ const Header = () => {
 
                     )
                     }
-                </div> 
+                </div>
+        </OutsideClickHandler>
+                <div className="menu-icon" onClick={() => setMenuOpened((prev) => !prev)}>
+                    <BiMenuAltRight size={30} />
+                </div>
             </div>
-            <div className="menu-icon">
-                <BiMenuAltRight size={30}/>
-            </div>
+
         </section>
     );
 };

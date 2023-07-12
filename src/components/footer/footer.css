@@ -23,3 +23,13 @@
 .fo-menu :hover{
  color: orange;
 }
+
+@media(max-width:768px){
+    .fo-container{
+        justify-content: center;
+    }
+    .fo-container>div{
+        align-items: center !important;
+        text-align: center;
+    }
+}
