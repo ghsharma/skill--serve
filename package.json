@@ -8,6 +8,8 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+
+  
   "dependencies": {
     "@auth0/auth0-react": "^2.1.1",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
