@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useAuth0 } from "@auth0/auth0-react";
+    import { useAuth0 } from "@auth0/auth0-react";
 import { BiMenuAltRight } from "react-icons/bi";
 import OutsideClickHandler from "react-outside-click-handler";
 import "./header.css";
@@ -42,7 +42,7 @@ const Header = () => {
                         </button>
 
                     ) : (
-                        <button className="button" onClick={() => loginWithRedirect()}>
+                        <button className="button">
                             <a href="">LOGIN</a>
                         </button>
 

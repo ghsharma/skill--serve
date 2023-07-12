@@ -20,8 +20,6 @@ const Timeline = () => {
 <>
                                 <VerticalTimelineElement
                                     key={element.key}
-
-
                                     date={element.date}
                                     dateClassName="date"
                                 >

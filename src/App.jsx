@@ -30,18 +30,18 @@ function App() {
                 <Fade bottom distance="20%" duration={1500}>
                 </Fade>
 
+                <Fade bottom distance="10%" duration={1500}>
+                  <Companies />
+                </Fade>
+
               </div>
               <Fade right distance="10%" duration={1500}>
                 <Residencies />
               </Fade>
-              <Fade bottom distance="10%" duration={1500}>
-                <Companies />
-              </Fade>
-
 
               <Fade bottom distance="10%" duration={1500}>
                 <Value />
-                <Timeline />
+                {/* <Timeline /> */}
                 <Contact />
                 <Getstarted />
                 <Footer />
